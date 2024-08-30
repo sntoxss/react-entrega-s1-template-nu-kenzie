@@ -1,0 +1,45 @@
+.container_form{
+  display: flex;
+  justify-content: center;
+
+  form{
+    .blockMain{
+      border: 1px solid #00000033;
+      display: flex;    
+      flex-direction: column;
+      padding: 35px 15px;
+      gap: 8px;
+      .description{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+      }
+    }
+    input{
+      color: var(--grey-3);
+    }
+    input,select,button{
+      width: 314px;
+      height: 48px;
+      border: none;
+      background: var(--grey-1);
+      border-radius: 8px;
+      padding: 0 16px;
+      }
+      button:hover{
+        filter:brightness(105%);
+        box-shadow: 0 0 5px 0 #ff0303;
+        transition: ease 2s;
+      }
+      button{
+        background: var(--color-primary);
+        color: var(--grey-1);
+      }
+      select{
+        cursor: pointer;
+        margin-bottom: 10px; 
+        font-size: 12px;
+      }
+  }
+
+}

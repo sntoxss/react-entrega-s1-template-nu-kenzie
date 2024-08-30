@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 345.46px;
+  height: 78px;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid var(--grey-2);
+  border-radius: 4px;
+  position: sticky;
+  top: 15px;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 950px){
+  .container{
+    width: 345px;
+  }
+}

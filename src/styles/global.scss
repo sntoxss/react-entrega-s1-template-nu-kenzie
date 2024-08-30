@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+  --color-primary: #FD377E;
+  --color-primary-2: #E34981;
+  --color-secondary: #03B898;
+
+  --grey-1: #F8F9FA;
+  --grey-2: #E9ECEF;
+  --grey-3: #868E96;
+  --grey-4: #212529;
+
+  --font-1: "Nunito";
+  --font-2: "Inter"
+}
+
+.title1{
+  font-size: 38px;
+  font-weight: 800;
+  font-family: var(--font-1);
+}
+.title2{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--font-1);
+}
+.title3{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-1);
+}
+.title4{
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-1);
+}
+.paragraph1{
+  font-family: var(--font-1);
+  font-size: 16px;
+}
+.paragraph2{
+  font-family: var(--font-1);
+  font-size: 12px;
+}
+.colorBlack{
+  color: var(--grey-4);
+}
+.colorGrey{
+  color: var(--grey-3);
+}
+.colorWhite{
+  color: white;
+}
+
+.red{
+  color: var(--color-primary);
+}

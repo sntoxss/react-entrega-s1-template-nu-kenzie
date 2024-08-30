@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  cursor: pointer;
+
+  option{
+    background: var(--grey-2);
+    font-weight: 600;
+    border: 1px solid var(--grey-2);
+    cursor: pointer;
+  }
+}

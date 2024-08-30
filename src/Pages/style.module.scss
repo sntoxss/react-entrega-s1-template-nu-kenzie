@@ -1,0 +1,21 @@
+.boxMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 35px;
+  .box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 950px){
+  .boxMain{
+    margin: 35px auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 345px;
+  }
+}
